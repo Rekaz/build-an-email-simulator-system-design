@@ -95,3 +95,20 @@ def main():
     ramy.check_inbox()
 if __name__ == '__main__':
     main()
+    
+##OUTPUT
+# Email sent from Tory to Ramy!
+
+# Email sent from Ramy to Tory!
+# 1. [Unread] From: Tory | Subject: Hello | Time: 2026-01-21 21:24
+# From: Tory
+# Subject: Hello
+# Received: 2026-01-21 21:24
+# Body: Hi Ramy, just saying hello!
+# ------------
+
+# Email deleted.
+
+
+# Ramy's Inbox:
+# Your inbox is empty.
