@@ -91,6 +91,7 @@ def main():
     
     ramy.check_inbox()
     ramy.read_email(1)
+    ramy.check_inbox()
     ramy.delete_email(1)
     ramy.check_inbox()
 if __name__ == '__main__':
@@ -100,13 +101,26 @@ if __name__ == '__main__':
 # Email sent from Tory to Ramy!
 
 # Email sent from Ramy to Tory!
-# 1. [Unread] From: Tory | Subject: Hello | Time: 2026-01-21 21:24
+
+
+# Ramy's Inbox:
+
+# Your Emails:
+# 1. [Unread] From: Tory | Subject: Hello | Time: 2026-01-21 22:58
+
+# --- Email ---
 # From: Tory
+# To: Ramy
 # Subject: Hello
-# Received: 2026-01-21 21:24
+# Received: 2026-01-21 22:58
 # Body: Hi Ramy, just saying hello!
 # ------------
 
+
+# Ramy's Inbox:
+
+# Your Emails:
+# 1. [Read] From: Tory | Subject: Hello | Time: 2026-01-21 22:58
 # Email deleted.
 
 
